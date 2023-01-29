@@ -5,26 +5,26 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 const questions = [{
     type: 'input',
-    name: 'title',
-    message: 'What is the title of your project?',
+    name: 'github',
+    message: 'What is your Github username?',
     validate: nameInput => {
         if (nameInput) {
             return true;
         } else {
-            console.log('Please enter project title!');
+            console.log('Please enter github username');
             return false; 
         }
     } 
 }, {
 
     type: 'input',
-    name: 'github',
-    message: 'What is your GitHub username?'
+    name: 'email',
+    message: 'What is your email address?'
 
 }, {
     type: 'input',
-    name: 'email',
-    message: 'What is your email address?'
+    name: 'title',
+    message: 'What is the title of your project?'
 
 }, {
     type: 'input',
@@ -60,7 +60,7 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('Readme.md', data, err => console.log(err));
+    fs.writeFile(fileName, data, err => console.log(err));
 }
 
 // TODO: Create a function to initialize app
@@ -68,13 +68,11 @@ function init() {
     return inquirer.prompt(questions).then(data => {
         console.log(data);
         const markdown = generateMarkdown(data);
-        writeToFile('Readme.md', markdown)
+        writeToFile('./Readme.md', markdown)
     })
 }
 
 // Function call to initialize app
 init();
 
-// STEPS FOR MIKE
-// 1.) Finsih creating the questions
-// 2.) Pass result into generate markdown function that returns a `` string with markdown
+

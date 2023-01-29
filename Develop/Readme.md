@@ -12,14 +12,6 @@ This generator was created to produce a  professional README requiring a series 
  * [Questions](#questions)
 
 
- * [Installation](#installation)
- * [Usage](#usage)
- * [License](#license)
- * [Contributing](#contributing)
- * [Tests](#tests)
- * [Questions](#questions)
-    
-
 ## Installation
 User should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module.
 
@@ -29,7 +21,7 @@ Project is license under MIT
 ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Usage 
-<img src="develop/utils/images/screen_record.gif">
+<img src= <iframe src="https://drive.google.com/file/d/1dA8GT382bnQBSb5wNqm1KPk6rOVUHvSB/preview" width="640" height="480"></iframe>
 
 ## Contributing 
 
