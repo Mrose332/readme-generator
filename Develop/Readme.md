@@ -4,6 +4,13 @@
 This generator was created to produce a  professional README requiring a series of questions that an user answers in their command line using Node.js
 
 # Table of Contents
+ * [Installation](#installation)
+ * [Usage](#usage)
+ * [License](#license)
+ * [Contributing](#contributing)
+ * [Tests](#tests)
+ * [Questions](#questions)
+
 
  * [Installation](#installation)
  * [Usage](#usage)
