@@ -44,6 +44,7 @@ ${data.contributors}
 ${data.test}
 
 ## Questions
+
 Reach me for additional questions at: ${data.email}.
 
 To view deployed project at: https://github.com/${data.github}.
