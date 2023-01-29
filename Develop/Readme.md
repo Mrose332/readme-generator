@@ -12,14 +12,6 @@ This generator was created to produce a  professional README requiring a series 
  * [Questions](#questions)
 
 
- * [Installation](#installation)
- * [Usage](#usage)
- * [License](#license)
- * [Contributing](#contributing)
- * [Tests](#tests)
- * [Questions](#questions)
-    
-
 ## Installation
 User should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module.
 
