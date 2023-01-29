@@ -1,27 +1,32 @@
-# Readme Generator
+# ReadMe Generator
+    This generator was created to produce a  professional README requiring a series of questions that an user answers in their command line using Node.js
+
+    ## Table of Contents
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
 
 
-# Table of Contents
-
-
-    
-
+      
 ## Installation
-lol 
+User should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module. 
 
 ## Usage 
-lol
+project
 
 ## Contributing 
-lol
+under the installation
 
 ## Tests
-lol
+NPM Test
 
 ## Questions
-Reach me for additional questions at: kk.
+Reach me for additional questions at: mrose332@gmail.com.
 
-To view deployed project at: https://github.com/kk.
+To view deployed project at: https://github.com/mrose332.
 
 
 
